@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <h3>REGISTRAZIONE esercizio</h3>
+
+    <!-- Introduzione -->
+    <p>Questa pagina ti permette di registrarti creando un nome utente e una password. Una volta completato, premi "CREA PROFILO" per confermare la registrazione (in questa pagina sto creando un form e grazie al metodo POST invio i dati alla pagina PHP).</p>
+    <p><strong>Nota:</strong> Assicurati di scegliere una password sicura e di ricordare il tuo nome utente.</p>
+
+    <!-- Modulo di registrazione -->
+    <form action="esercizio3.php" method="POST">
+        <!-- Campo per creare il tuo nome utente -->
+        <label for="creanomeutente">Crea il tuo Nome utente:</label><br>
+        <input type="text" id="creanomeutente" name="creanomeutente" placeholder="Crea il tuo nuovo nome utente"><br>
+        <p>Commento: Inserisci un nome utente unico che utilizzerai per accedere in futuro.</p><br>
+
+        <!-- Campo per creare la tua password -->
+        <label for="creapassword">Crea Password:</label><br>
+        <input type="password" id="creapassword" name="creapassword" placeholder="Inserisci la tua password"><br>
+        <p>Commento: Inserisci una password sicura. La password dovrebbe contenere almeno 8 caratteri, includendo lettere, numeri e simboli.</p><br>
+
+        <!-- Pulsante per confermare la registrazione -->
+        <input type="submit" name="submit" value="INVIO">
+        <p>Commento: Premi "INVIO" per completare la registrazione e inviare i tuoi dati al server.</p>
+    </form>
+
+    <br><br>
+
+    <!-- Pulsante per tornare alla pagina iniziale -->
+    <a href="index.html">
+        <button>Torna Indietro</button>
+    </a>
+    <p>Commento: Premi "Torna Indietro" per tornare alla pagina principale senza completare la registrazione.</p>
+
+    <br><br>
+    <footer>
+        <p>2024/2025 Quaderno di informatica</p>
+        <p>ESERCIZI:</p>
+        <br>
+  
+        <p>INFORMAZIONI:</p>
+        <ul>
+            <li><a href="#chi siamo">Chi Siamo</a></li>
+            <li><a href="#servizio">Servizi</a></li>
+            <li><a href="#privacy">Privacy Policy</a></li>
+            <li><a href="#contatti">Contatti</a></li>
+        </ul>
+    </footer>
+</body>
+</html>

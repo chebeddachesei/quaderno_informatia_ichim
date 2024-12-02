@@ -2,7 +2,7 @@
 <html lang="it">
 <head>
   <meta charset="UTF-8">
-  <title>Accesso a pagina riservata esercizio</title>
+  <title>Accesso a pagina riservata </title>
 </head>
 <body>
 

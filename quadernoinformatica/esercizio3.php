@@ -1,5 +1,5 @@
 <?php
-// Introduzione per l'utente esercizio
+// Introduzione per l'utente 
 echo "<h3>Controllo delle Credenziali</h3>";
 echo "<p>Questa pagina verifica il nome utente e la password inseriti. Se le credenziali sono corrette, accederai alla sezione riservata. Altrimenti, potrai tornare indietro per riprovare.</p>";
 
